@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Lira Physics</string>
+    <string name="btnConversorTermomagnetico">Thermisch-Magnetisch Converter</string>
+    <string name="btnCalculosEletricidade">Elektrizität Berechnungen</string>
+    <string name="btnTeoriaRelatividade">Relativitätstheorie</string>
+    <string name="btnDilatacao">Berechnen Dilation</string>
+    <string name="btnAceleracao">Berechnen Beschleunigung</string>
+    <string name="btnForca">berechnen Kraft</string>
+    <string name="btnAtrito">Berechnen Friction</string>
+    <string name="btnEnergia">berechnen Energie</string>
+    <string name="btnImpulso">berechnen Impulse</string>
+    <string name="btnGravitacao">berechnen Gravitation</string>
+    <string name="btnEntropia">Berechnung Entropy</string>
+    <string name="btnFormulas">Show Formeln</string>
+    <string name="btnDesenvolvedor">Spenden an den Entwickler</string>
+    <string name="btnTraducao">Help with a Translation</string>
+
+    <!-- Conversor Termomagnético -->
+    <string name="lblTitulo">Thermisch-Magnetisch Converter</string>
+    <string name="txtValor">Wert</string>
+    <string name="btnConverte">Convert</string>
+    <string name="lblDe">Convert From:</string>
+    <string name="hintValor">Wert:</string>
+    <string name="lblPara">Convert To:</string>
+
+    <!-- Cálculos de Eletricidade -->
+    <string name="lblResistencia">Elektrischer Widerstand</string>
+    <string name="lblCorrente">Elektrischer Strom</string>
+    <string name="lblTensao">Elektrische Spannung</string>
+    <string name="lblPotencia">Electric Power</string>
+    <string name="lblConsumo">Verbrauch in kWh</string>
+    <string name="btnCalcula">Berechnen</string>
+
+    <!-- Teori da Relatividade -->
+    <string name="lblDeltaTLinha">Finden &#916;t0</string>
+    <string name="lblDeltaT">Finden &#916;t</string>
+    <string name="lblVelocidade">Finden V</string>
+
+    <!-- Calcular Dilatação -->
+    <string name="lblDilatacaoSolidos">Solids Dilation</string>
+    <string name="lblLinear">Linear Erweiterung</string>
+    <string name="lblSuperficial">Oberflächliche Erweiterung</string>
+    <string name="lblVolumetrica">Volumetric Dilation</string>
+    <string name="lblCoeficienteSuperficial">Ausdehnungskoeffizient Oberfläche</string>
+    <string name="lblCoeficienteVolumetrica">Volumenausdehnungskoeffizient</string>
+
+    <string name="lblDilatcaoLiquidos">Erweiterung des Net</string>
+    <string name="lblAparente">Diçatação Aparente</string>
+    <string name="lblRecipiente">Dilatação Recipiente</string>
+    <string name="lblReal">Dilatação Real</string>
+    <string name="lblCoeficienteReal">Ausdehnungskoeffizient Echt</string>
+
+    <!-- Spinner -->
+    <string-array name="escalas01">
+        <item>ºC</item>
+        <item>ºF</item>
+        <item>K</item>
+    </string-array>
+
+    <string-array name="escalas02">
+        <item>ºF</item>
+        <item>ºC</item>
+        <item>K</item>
+    </string-array>
+
+    <!-- Dialogs -->
+    <string name="dlgFirst">Diese App ist kostenlos, aber Sie können eine Spende in bitcoin an den Entwickler machen, falls gewünscht. Alle satoshi hilft</string>
+    <string name="dlgInicial">ACHTUNG! Diese App ist noch in der Entwicklung und noch nicht fertig, so dass einige Funktionen nicht zur Verfügung.</string>
+    <string name="dlgBreve">Soon</string>
+    <string name="dlgBTC">Senden Sie eine beliebige Anzahl von Bitcoin für das folgende Portfolio: 18eFpeDDgnHmzCV25Hwp34ZVYprwsXjeTW </string>
+    <string name="dlgCopiarBTC">Copy Adress</string>
+
+    <!-- Botões dos Dialogs -->
+    <string name="dlgbtnOk">Ok</string>
+    <string name="dlgbtnFechar">Schließen</string>
+    <string name="dlgbtnCancelar">Abbrechen</string>
+    <string name="dlgbtnCopiar">Kopieren</string>
+
+
+</resources>

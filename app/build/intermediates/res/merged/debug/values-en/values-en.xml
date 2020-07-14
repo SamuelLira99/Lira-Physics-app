@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="escalas01">
+        <item>ºC</item>
+        <item>ºF</item>
+        <item>K</item>
+    </string-array>
+    <string-array name="escalas02">
+        <item>ºF</item>
+        <item>ºC</item>
+        <item>K</item>
+    </string-array>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <string name="app_name">Lira Physics</string>
+    <string name="btnAceleracao">Calculate Acceleration</string>
+    <string name="btnAtrito">Calculate Friction</string>
+    <string name="btnCalcula">Calculate</string>
+    <string name="btnCalculosEletricidade">Electricity Calculation</string>
+    <string name="btnConversorTermomagnetico">Thermomagnetic Converter</string>
+    <string name="btnConverte">Convert</string>
+    <string name="btnDesenvolvedor">About the Developer</string>
+    <string name="btnDilatacao">Calculate Dilation</string>
+    <string name="btnDoar">Donate to the developer</string>
+    <string name="btnEnergia">Calculate Energy</string>
+    <string name="btnEntropia">Calculate Entropy</string>
+    <string name="btnForca">Calculate Force</string>
+    <string name="btnFormulas">Show Formulas</string>
+    <string name="btnGravitacao">Calculate Gravitation</string>
+    <string name="btnImpulso">Calculate Impulse</string>
+    <string name="btnTeoriaRelatividade">Theory of Relativity</string>
+    <string name="btnTraducao">Help with a Translation</string>
+    <string name="dlgBTC">Send any amount of Bitcoin to the following wallet: 18eFpeDDgnHmzCV25Hwp34ZVYprwsXjeTW </string>
+    <string name="dlgBreve">Soon</string>
+    <string name="dlgCopiarBTC">Copy Adress</string>
+    <string name="dlgFirst">This app is free, however you can donate bitcoin to the developer, if you want. Any amount of satoshi helps</string>
+    <string name="dlgInicial">ATTENTION! This app is still being developed and is not ready, so some features will not be available right now.</string>
+    <string name="dlgbtnCancelar">Cancel</string>
+    <string name="dlgbtnCopiar">Copy</string>
+    <string name="dlgbtnFechar">Close</string>
+    <string name="dlgbtnOk">Ok</string>
+    <string name="hintValor">Value:</string>
+    <string name="lblAparente">Apparent Dilation</string>
+    <string name="lblCoeficienteReal">Real Dilation Coefficient</string>
+    <string name="lblCoeficienteSuperficial">Surface Dilatation Coefficient</string>
+    <string name="lblCoeficienteVolumetrica">Volumetric Dilatation Coefficient</string>
+    <string name="lblConsumo">Consumption in kWh</string>
+    <string name="lblCorrente">Electrical Current</string>
+    <string name="lblDe">Convert From:</string>
+    <string name="lblDeltaT">Find Δt</string>
+    <string name="lblDeltaTLinha">Find Δt0</string>
+    <string name="lblDilatacaoSolidos">Solids Dilation</string>
+    <string name="lblDilatcaoLiquidos">Dilation of Liquids</string>
+    <string name="lblLinear">Linear Dilation</string>
+    <string name="lblPara">Convert To:</string>
+    <string name="lblPotencia">Electrical Power</string>
+    <string name="lblReal">Real Dilatation</string>
+    <string name="lblRecipiente">Dilatação Recipiente</string>
+    <string name="lblResistencia">Electrical Resistence</string>
+    <string name="lblSuperficial">Surface Dilation</string>
+    <string name="lblTensao">Electrical Voltage</string>
+    <string name="lblTitulo">Thermomagnetic Converter</string>
+    <string name="lblVelocidade">Find V</string>
+    <string name="lblVolumetrica">Volumetric Dilation</string>
+    <string name="txtValor">Value</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">#32CD32</item>
+        <item name="colorAccent">#008400</item>
+    </style>
+</resources>

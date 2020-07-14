@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="escalas01">
+        <item>ºC</item>
+        <item>ºF</item>
+        <item>K</item>
+    </string-array>
+    <string-array name="escalas02">
+        <item>ºF</item>
+        <item>ºC</item>
+        <item>K</item>
+    </string-array>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"NO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"SÍ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="app_name">Lira Physics</string>
+    <string name="btnAceleracao">Calcular la Aceleración</string>
+    <string name="btnAtrito">Calcular la fricción</string>
+    <string name="btnCalcula">Calcular</string>
+    <string name="btnCalculosEletricidade">Calculos de Eletricidad</string>
+    <string name="btnConversorTermomagnetico">Conversor Termomagnetico</string>
+    <string name="btnConverte">Convertir</string>
+    <string name="btnDesenvolvedor">Acerca de desarrollador</string>
+    <string name="btnDilatacao">Calcular la Dilatación</string>
+    <string name="btnDoar">donar al desarrollador</string>
+    <string name="btnEnergia">Calcular la Energia</string>
+    <string name="btnEntropia">Calcular la Entropía</string>
+    <string name="btnForca">Calcular la Fuerza</string>
+    <string name="btnFormulas">Mostrar Formulas</string>
+    <string name="btnGravitacao">Calcular la Gravitación</string>
+    <string name="btnImpulso">Calcular el Impulso</string>
+    <string name="btnTeoriaRelatividade">Teoria de la Relatividad</string>
+    <string name="btnTraducao">Help with a Translation</string>
+    <string name="dlgBTC">Enviar cualquier cantidad de Bitcoin para la siguiente cartera: 18eFpeDDgnHmzCV25Hwp34ZVYprwsXjeTW </string>
+    <string name="dlgBreve">Pronto</string>
+    <string name="dlgCopiarBTC">Copiar la dirección</string>
+    <string name="dlgFirst">Esta aplicación es gratuita, sin embargo puedes donar bitcoin al desarrollador, si lo deseas. Cualquier cantidad de satoshi ayuda</string>
+    <string name="dlgInicial">¡ADVERTENCIA! Esta aplicación está todavía en desarrollo y no está listo, por lo que algunas funciones no estarán disponibles..</string>
+    <string name="dlgbtnCancelar">Cancelar</string>
+    <string name="dlgbtnCopiar">Copiar</string>
+    <string name="dlgbtnFechar">Cerrar</string>
+    <string name="dlgbtnOk">Ok</string>
+    <string name="hintValor">Valor:</string>
+    <string name="lblAparente">Dilatación Aparente</string>
+    <string name="lblCoeficienteReal">Coeficiente de Dilatacion Real</string>
+    <string name="lblCoeficienteSuperficial">Coeficiente de Dilatacion Superficial</string>
+    <string name="lblCoeficienteVolumetrica">Coeficiente de Dilatacion Volumetrica</string>
+    <string name="lblConsumo">El Consumo en kWh</string>
+    <string name="lblCorrente">Corriente Eléctrica</string>
+    <string name="lblDe">Convertir De:</string>
+    <string name="lblDeltaT">Encuentra el Δt</string>
+    <string name="lblDeltaTLinha">Encuentra el Δt0</string>
+    <string name="lblDilatacaoSolidos">Dilatacion de los Solidos</string>
+    <string name="lblDilatcaoLiquidos">Dilatção de los Liquidos</string>
+    <string name="lblLinear">Dilatacion Linear</string>
+    <string name="lblPara">Convertir a:</string>
+    <string name="lblPotencia">Potencia Eléctrica</string>
+    <string name="lblReal">Dilatación Real</string>
+    <string name="lblRecipiente">Dilatación Recipiente</string>
+    <string name="lblResistencia">Resistencia Eléctrica</string>
+    <string name="lblSuperficial">Dilatacion Superficial</string>
+    <string name="lblTensao">Tensión Eléctrica</string>
+    <string name="lblTitulo">Convertidor magnética térmica</string>
+    <string name="lblVelocidade">Encuentra el V</string>
+    <string name="lblVolumetrica">Dilatacion Volumetrica</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="txtValor">Valor</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">#32CD32</item>
+        <item name="colorAccent">#008400</item>
+    </style>
+</resources>

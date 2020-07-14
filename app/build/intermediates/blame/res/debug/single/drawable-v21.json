@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

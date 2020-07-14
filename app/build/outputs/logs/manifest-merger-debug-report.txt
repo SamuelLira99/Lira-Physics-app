@@ -1,0 +1,133 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml
+		INJECTED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml
+		INJECTED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml
+		INJECTED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:5:5-9:40
+	android:largeScreens
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:8:9-36
+	android:smallScreens
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:6:9-36
+	android:normalScreens
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:7:9-37
+	android:xlargeScreens
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:9:9-37
+application
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:11:5-43:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/samuel/.android/build-cache/b884b1330aa3694c068098528b28cd8a8b329cd8/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/samuel/.android/build-cache/1abec48dd0349a8cb299f82ac45160a9f3d9c11f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/samuel/.android/build-cache/339446461efad9fbc6aef6b1d6a73e2d8364a418/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/samuel/.android/build-cache/9a80b266383d2bd7993ee2122d373b196bd3449c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/samuel/.android/build-cache/a229ee700331d41000e11983326d69bfbe6c694f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/samuel/.android/build-cache/9dbc9ac5c960a7350bcf7c3dc715745f4c1d0fc1/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/samuel/.android/build-cache/235f66afe2001451853573da3df5b2a8947ad8d7/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/samuel/.android/build-cache/f7bfc35c00a224b45b411a5f5caa7f971c437ea3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/samuel/.android/build-cache/3a3abd8e7f4a7b0f1a30fb8968d99e0471942248/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:16:9-35
+	android:roundIcon
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:15:9-54
+	android:allowBackup
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:13:9-43
+	android:theme
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:17:9-40
+activity#com.liradev.liraphysics.MainActivity
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:screenOrientation
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:20:13-49
+	android:name
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:19:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.liradev.liraphysics.ConversorTermomagnetico
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:27:9-29:52
+	android:screenOrientation
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:28:13-52
+activity#com.liradev.liraphysics.CalculosEletricidade
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:30:9-32:52
+	android:screenOrientation
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:32:13-49
+	android:name
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:31:13-49
+activity#com.liradev.liraphysics.TeoriaRelatividade
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:33:9-35:52
+	android:screenOrientation
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:34:13-47
+activity#com.liradev.liraphysics.CalcularDilatacao
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:36:9-38:52
+	android:screenOrientation
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:37:13-46
+activity#com.liradev.liraphysics.Traducao
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:39:9-41:52
+	android:screenOrientation
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:40:13-37
+activity#com.liradev.liraphysics.CalcularEntropia
+ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:42:9-54
+	android:name
+		ADDED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml:42:19-51
+uses-sdk
+INJECTED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /home/samuel/.android/build-cache/b884b1330aa3694c068098528b28cd8a8b329cd8/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/samuel/.android/build-cache/1abec48dd0349a8cb299f82ac45160a9f3d9c11f/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/samuel/.android/build-cache/339446461efad9fbc6aef6b1d6a73e2d8364a418/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/samuel/.android/build-cache/9a80b266383d2bd7993ee2122d373b196bd3449c/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/samuel/.android/build-cache/a229ee700331d41000e11983326d69bfbe6c694f/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/samuel/.android/build-cache/9dbc9ac5c960a7350bcf7c3dc715745f4c1d0fc1/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/samuel/.android/build-cache/235f66afe2001451853573da3df5b2a8947ad8d7/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /home/samuel/.android/build-cache/f7bfc35c00a224b45b411a5f5caa7f971c437ea3/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/samuel/.android/build-cache/3a3abd8e7f4a7b0f1a30fb8968d99e0471942248/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml
+		INJECTED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml
+		INJECTED from /home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/samuel/.android/build-cache/b884b1330aa3694c068098528b28cd8a8b329cd8/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/samuel/.android/build-cache/1abec48dd0349a8cb299f82ac45160a9f3d9c11f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/samuel/.android/build-cache/339446461efad9fbc6aef6b1d6a73e2d8364a418/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/samuel/.android/build-cache/9a80b266383d2bd7993ee2122d373b196bd3449c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/samuel/.android/build-cache/a229ee700331d41000e11983326d69bfbe6c694f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/samuel/.android/build-cache/9dbc9ac5c960a7350bcf7c3dc715745f4c1d0fc1/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/samuel/.android/build-cache/235f66afe2001451853573da3df5b2a8947ad8d7/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/samuel/.android/build-cache/f7bfc35c00a224b45b411a5f5caa7f971c437ea3/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/AndroidManifest.xml:26:9-47

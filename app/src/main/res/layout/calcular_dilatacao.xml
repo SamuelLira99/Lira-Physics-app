@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liradev.liraphysics.CalcularDilatacao">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:text="@string/lblDilatacaoSolidos"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblLinear" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <EditText
+                    android:id="@+id/txtL0Linear"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint=" Lo"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/txtALinear"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="a"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/txtD0Linear"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Δθ"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.37"
+                    android:onClick="calcularDilatacaoLinear"
+                    android:text="@string/btnCalcula"
+                    tools:ignore="DuplicateIds,HardcodedText"
+                    tools:onClick="emBreve" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.91" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lblSuperficial"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtS0Superficial"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="So"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/txtBSuperficial"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="β"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/txtD0Superficial"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Δθ"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.42"
+                    android:onClick="calcularDilatacaoSuperficial"
+                    android:text="@string/btnCalcula"
+                    tools:ignore="HardcodedText"
+                    tools:onClick="emBreve" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.91" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblVolumetrica"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtV0Volumetrica"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="V0"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="DuplicateIds,HardcodedText" />
+
+                <EditText
+                    android:id="@+id/txtYVolumetrica"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/txtD0Volumetrica"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Δθ"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.35"
+                    android:onClick="calcularDilatacaoVolumetrica"
+                    android:text="@string/btnCalcula"
+                    tools:ignore="HardcodedText"
+                    tools:onClick="emBreve" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.91" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblCoeficienteSuperficial" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.39"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtACoeficienteSuperficial"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.91"
+                    android:ems="10"
+                    android:hint="a"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText,NestedWeights" />
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="calcularCoeficienteSuperficial"
+                    android:text="@string/btnCalcula"
+                    tools:ignore="HardcodedText"
+                    tools:onClick="emBreve" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.91" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblCoeficienteVolumetrica" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtACoeficienteVolumetrica"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.54"
+                    android:ems="10"
+                    android:hint="a"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="calcularCoeficienteVolumetrica"
+                    android:text="@string/btnCalcula"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.91" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.91" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.91" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="@string/lblDilatcaoLiquidos"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.91" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblAparente" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <EditText
+                    android:id="@+id/txtV0Aparente"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="V0"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/txtYlAparente"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Yl"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/txtD0Aparente"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Δθ"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.44"
+                    android:onClick="calcularDilatacaoAparente"
+                    android:text="@string/btnCalcula"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.91" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblRecipiente" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <EditText
+                    android:id="@+id/txtV0Recipiente"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Vo"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/txtYrecRecipiente"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Yrec"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/txtD0Recipiente"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Δθ"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.44"
+                    android:onClick="calcularDilatacaoRecipiente"
+                    android:text="@string/btnCalcula"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.91" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblReal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <EditText
+                    android:id="@+id/txtDVapReal"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="ΔVap"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/txtDVrecReal"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="ΔVrec"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.99"
+                    android:onClick="calcularDilatacaoReal"
+                    android:text="@string/btnCalcula"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.91" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblCoeficienteReal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <EditText
+                    android:id="@+id/txtYlCoeficienteReal"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Yl"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/txtYrecCoeficienteReal"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Yrec"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:ignore="DuplicateIds,HardcodedText" />
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.97"
+                    android:onClick="calcularCoeficienteReal"
+                    android:text="@string/btnCalcula"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/layout-small-v4/calculos_eletricidade.xml",
+        "source": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/res/layout-small/calculos_eletricidade.xml"
+    },
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/layout-small-v4/conversor_termomagnetico.xml",
+        "source": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/res/layout-small/conversor_termomagnetico.xml"
+    },
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/layout-small-v4/teoria_relatividade.xml",
+        "source": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/res/layout-small/teoria_relatividade.xml"
+    },
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/layout-small-v4/activity_main.xml",
+        "source": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/res/layout-small/activity_main.xml"
+    },
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/layout-small-v4/calcular_dilatacao.xml",
+        "source": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/src/main/res/layout-small/calcular_dilatacao.xml"
+    }
+]

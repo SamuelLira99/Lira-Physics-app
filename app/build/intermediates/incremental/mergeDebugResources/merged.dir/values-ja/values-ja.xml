@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="escalas01">
+        <item>ºC</item>
+        <item>ºF</item>
+        <item>K</item>
+    </string-array>
+    <string-array name="escalas02">
+        <item>ºF</item>
+        <item>ºC</item>
+        <item>K</item>
+    </string-array>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s、%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s、%2$s、%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="app_name">Lira Physics</string>
+    <string name="btnAceleracao">加速度を計算する</string>
+    <string name="btnAtrito">摩擦を計算する</string>
+    <string name="btnCalcula">計算</string>
+    <string name="btnCalculosEletricidade">電力計算</string>
+    <string name="btnConversorTermomagnetico">熱磁気コンバータ</string>
+    <string name="btnConverte">変換</string>
+    <string name="btnDesenvolvedor">開発者について</string>
+    <string name="btnDilatacao">Dilationを計算する</string>
+    <string name="btnDoar">開発者に寄付</string>
+    <string name="btnEnergia">エネルギーを計算する</string>
+    <string name="btnEntropia">エントロピーを計算する</string>
+    <string name="btnForca">力を割り出す</string>
+    <string name="btnFormulas">数式を表示する</string>
+    <string name="btnGravitacao">重力計算</string>
+    <string name="btnImpulso">Impulseの計算</string>
+    <string name="btnTeoriaRelatividade">相対性理論</string>
+    <string name="btnTraducao">翻訳のヘルプ</string>
+    <string name="dlgBTC">Bitcoinを次のウォレットに送信します。18eFpeDDgnHmzCV25Hwp34ZVYprwsXjeTW </string>
+    <string name="dlgBreve">すぐに</string>
+    <string name="dlgCopiarBTC">アドレスをコピー</string>
+    <string name="dlgFirst">このアプリは無料ですが、必要に応じて開発者にBitcoinを寄付することもできます。satoshiの任意の量は</string>
+    <string name="dlgInicial">注意！このアプリはまだ開発中で、準備ができていないので、今すぐ利用できない機能もあります。</string>
+    <string name="dlgbtnCancelar">キャンセル</string>
+    <string name="dlgbtnCopiar">コピー</string>
+    <string name="dlgbtnFechar">閉じる</string>
+    <string name="dlgbtnOk">Ok</string>
+    <string name="hintValor">値:</string>
+    <string name="lblAparente">見かけ上の展開</string>
+    <string name="lblCoeficienteReal">実際の膨張係数</string>
+    <string name="lblCoeficienteSuperficial">表面の希釈係数</string>
+    <string name="lblCoeficienteVolumetrica">容積膨張係数</string>
+    <string name="lblConsumo">消費量（kWh）</string>
+    <string name="lblCorrente">電流電流</string>
+    <string name="lblDe">コンバート元:</string>
+    <string name="lblDeltaT">Δtを見つける</string>
+    <string name="lblDeltaTLinha">Δt0を見つける</string>
+    <string name="lblDilatacaoSolidos">ソリッド・ディレーション</string>
+    <string name="lblDilatcaoLiquidos">液体の膨張</string>
+    <string name="lblLinear">線形ディレーション</string>
+    <string name="lblPara">変換先:</string>
+    <string name="lblPotencia">電力</string>
+    <string name="lblReal">実際の拡張</string>
+    <string name="lblRecipiente">Dilatação Recipiente</string>
+    <string name="lblResistencia">電気抵抗</string>
+    <string name="lblSuperficial">サーフェス・ディレーション</string>
+    <string name="lblTensao">電気的電圧</string>
+    <string name="lblTitulo">熱磁気コンバータ</string>
+    <string name="lblVelocidade">Vを見つける</string>
+    <string name="lblVolumetrica">ボリュームディレーション</string>
+    <string msgid="146198913615257606" name="search_menu_title">"検索"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="txtValor">値</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">#32CD32</item>
+        <item name="colorAccent">#008400</item>
+    </style>
+</resources>

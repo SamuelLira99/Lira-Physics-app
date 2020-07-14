@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/samuel/Programacao/Fazendo/Android/LiraPhysics/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/samuel/.android/build-cache/1aeac3f9f2c42fb96d2647e0a105f081162f2121/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]
